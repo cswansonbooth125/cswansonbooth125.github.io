@@ -54,7 +54,7 @@ const data = [
     .selectAll("text")
     .attr("transform", "rotate(-45)")
     .style("text-anchor", "end")
-    .style("font-size", "14px")
+    .style("font-size", "10px")
     .style("fill", "lightgrey");
 
   // Create y axis
@@ -62,8 +62,7 @@ const data = [
     .attr("transform", `translate(${margin.left}, 0)`)
     .call(d3.axisLeft(yScale))
     .style("font-size", "14px")
-    .attr("fill", "lightgrey")
-    .style("fill", "lightgrey");
+    .classed(("y-axis-text", true));
 
   // Create bars
   svg.selectAll("rect")
@@ -87,6 +86,6 @@ const data = [
     imageElement.src = imagePath;
     imageElement.alt = "Genre Image";
     imageElement.height = 800;
-    imageElement.width = 500; // Adjust the width as needed
+    imageElement.width = 800; // Adjust the width as needed
     document.getElementById("image-container").appendChild(imageElement);
   } 
