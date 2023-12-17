@@ -1,13 +1,13 @@
 const data = [
-    { "genre": "Rock", "value": 300 , "image": "genre-images/rocktopster.png"},
+    { "genre": "Rock", "value": 316 , "image": "genre-images/rocktopster.png"},
     { "genre": "Funk / Soul", "value": 50, "image": "genre-images/funksoultopster.png" },
-    { "genre": "Electronic", "value": 50, "image": "genre-images/electronictopster.png"  },
-    { "genre": "Hip Hop", "value": 40, "image": "genre-images/hiphoptopster.png" },
-    { "genre": "Jazz", "value": 20, "image": "genre-images/jazztopster.png"},
-    { "genre": "Folk", "value": 10, "image": "genre-images/folktopster.png" },
-    { "genre": "Blues", "value": 10, "image": "genre-images/bluestopster.png" },
-    { "genre": "Reggae", "value": 5, "image": "genre-images/reggaetopster.png" },
-    { "genre": "Pop", "value": 1, "image": "genre-images/poptopster.png" },
+    { "genre": "Electronic", "value": 44, "image": "genre-images/electronictopster.png"  },
+    { "genre": "Hip Hop", "value": 34, "image": "genre-images/hiphoptopster.png" },
+    { "genre": "Jazz", "value": 19, "image": "genre-images/jazztopster.png"},
+    { "genre": "Folk", "value": 13, "image": "genre-images/folktopster.png" },
+    { "genre": "Blues", "value": 9, "image": "genre-images/bluestopster.png" },
+    { "genre": "Reggae", "value": 6, "image": "genre-images/reggaetopster.png" },
+    { "genre": "Pop", "value": 2, "image": "genre-images/poptopster.png" },
     { "genre": "Classical", "value": 1, "image": "genre-images/classicaltopster.png" },
     { "genre": "Latin", "value": 1, "image": "genre-images/latintopster.png" },
   ];
@@ -54,7 +54,7 @@ const data = [
     .selectAll("text")
     .attr("transform", "rotate(-45)")
     .style("text-anchor", "end")
-    .style("font-size", "14px")
+    .style("font-size", "10px")
     .style("fill", "lightgrey");
 
   // Create y axis
