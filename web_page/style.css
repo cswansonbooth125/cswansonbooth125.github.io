@@ -1,0 +1,46 @@
+body {
+    background-color: #282b30;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 60px;   
+    background-image: linear-gradient(to left, #EC5A00,#553c9a );
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;  
+    margin-bottom: auto;
+}
+
+p {
+    margin-left: 12px;
+    margin-right: 12px;
+    font-family: 'Assistant', sans-serif;
+    color: lightgrey;
+}
+
+img {
+    margin-top: 12px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50vw;
+}
+/*iphone 13*/
+
+#image-container {
+    width: 500px; /* Set the width of the box */
+    height: 800px; /* Set the height of the box */
+    background-color: #282b30; /* Set the background color of the box */
+    border: 2px solid #282b30; /* Set a border around the box */
+    padding: 20px; /* Add padding inside the box */
+    text-align: center; /* Center the text horizontally */
+    /*line-height: 400px;  Center the text vertically */
+    font-family: Arial, sans-serif; /* Set the font family */
+    font-size: 16px; /* Set the font size */
+    color: #333; /* Set the text color */
+
+}
