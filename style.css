@@ -7,15 +7,18 @@ body {
 h1 {
     text-align: center;
     font-family: 'Roboto', sans-serif;
-    font-size: 60px;   
+    font-size: 96px;   
     background-image: linear-gradient(to left, #EC5A00,#553c9a );
     color: transparent;
     background-clip: text;
     -webkit-background-clip: text;  
     margin-bottom: auto;
+    -webkit-text-stroke: 1px black; /* For Safari/Chrome */
 }
 
-p {
+p, li, ul {
+    text-align: center;
+    font-size: 24px;
     margin-left: 12px;
     margin-right: 12px;
     font-family: 'Assistant', sans-serif;
@@ -27,16 +30,15 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50vw;
 }
 /*iphone 13*/
 
 #image-container {
-    width: 500px; /* Set the width of the box */
+    width: 700px; /* Set the width of the box */
     height: 800px; /* Set the height of the box */
     background-color: #282b30; /* Set the background color of the box */
     border: 2px solid #282b30; /* Set a border around the box */
-    padding: 20px; /* Add padding inside the box */
+    padding: 10px; /* Add padding inside the box */
     text-align: center; /* Center the text horizontally */
     /*line-height: 400px;  Center the text vertically */
     font-family: Arial, sans-serif; /* Set the font family */
@@ -45,7 +47,12 @@ img {
 
 }
 
-.y-axis-text {
-    font-size: 14px;
-    fill: lightgrey;
-  }
+.album_art {
+    text-align: right;
+    height: 200px;
+    width: 200px;
+}
+
+a {
+    color: lightblue;
+}
