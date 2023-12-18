@@ -16,13 +16,25 @@ h1 {
     -webkit-text-stroke: 1px black; /* For Safari/Chrome */
 }
 
-p, li, ul {
+p {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+li {
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+p, li {
     text-align: center;
     font-size: 24px;
-    margin-left: 12px;
-    margin-right: 12px;
     font-family: 'Assistant', sans-serif;
     color: lightgrey;
+}
+
+b {
+    color: #553c9a;
 }
 
 img {
